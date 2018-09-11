@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background-image: url("./manager_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#app {
+  background-color: rgba(40, 160, 230, 0.2);
+}
+#content{
+  min-height: 400px;
+}
+#msg{
+  font-family: 木头-小可爱;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 0;
+}
+#list a{
+  height: 50px;
+  border: 1px solid rgba(0,0,0,.1);
+  color: #4b535a;
+  line-height: 48px;
+  background-color: #c6d8e6;
+}
+#list a:hover{
+  text-decoration: none;
+  color: white;
+}
+.active{
+  background-color: #589fd1!important;
+  color: white!important;
+}
+footer{
+  height: 40px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+footer p{
+  margin: 0;
+}
+
+.input-group .form-control {
+  background-color: #c6d8e6;
+}
+.input-group-append .btn{
+  background-color: #c6d8e6;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.input-group-append .btn:hover {
+  background-color: #589fd1;
+  border-color: #589fd1;
+}
+
+.form-group .form-control {
+  background-color: #c6d8e6;
+}
+.form-group label {
+  margin: 0 5%;
+  line-height: 2.5;
+  float: left;
+}
+.form-group .btn {
+  background-color: #589fd1;
+  border-color: #589fd1;
+}
+.form-group .btn:hover {
+  background-color: #1075bd;
+  border-color: #1075bd;
+}
+.custom-file .custom-file-label {
+  margin: 0;
+  line-height: 145%;
+  background-color: #e9ecef;
+}
+
+/* 订单和书籍项 */
+.book-item {
+  margin: 3% 1%;
+  padding: 2%;
+  background-color: #c6d8e6;
+  border: 1px solid #c6d8e6;
+  border-radius: 0.5em;
+}
+.order-item {
+  margin: 1% 0;
+  padding: 1% 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.book-item button {
+  background-color: #90c8f0;
+  border-color: #90c8f0;
+}
+.book-name {
+  color: #1075bd;
+  font-weight: 700;
+}
+.book-item button:hover {
+  background-color: #1075bd;
+  border-color: #1075bd;
+  color: white;
+}
+
+.page .btn{
+  background-color: #1075bd;
+  color: white;
+}
+.btn .disabled{
+  opacity: 0.35;
+}
